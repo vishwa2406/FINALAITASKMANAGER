@@ -1,0 +1,14 @@
+.env
+*.env.local
+target/
+backend/target/
+maven/
+*.class
+*.jar
+.idea/
+*.iml
+.vscode/
+node_modules/
+dist/
+.DS_Store
+*.log

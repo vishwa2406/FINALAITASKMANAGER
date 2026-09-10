@@ -1,0 +1,6 @@
+MYSQL_ROOT_PASSWORD=rootpassword
+MYSQL_DATABASE=aitaskmanager
+MYSQL_USER=aitaskuser
+MYSQL_PASSWORD=aitaskpassword
+JWT_SECRET=myVerySecretKeyForProductionUse2024ChangeThis
+OPENAI_API_KEY=sk-your-openai-api-key-here
