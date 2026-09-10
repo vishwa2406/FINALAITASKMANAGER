@@ -16,7 +16,7 @@ services:
       - key: JWT_SECRET
         generateValue: true
       - key: CORS_ORIGINS
-        value: https://ai-task-manager-frontend.onrender.com,http://localhost:3000
+        value: "*"
       - key: OPENAI_API_KEY
         sync: false
 
@@ -34,4 +34,4 @@ services:
         destination: /index.html
     envVars:
       - key: VITE_API_URL
-        value: https://ai-task-manager-backend.onrender.com/api
+        value: https://ai-task-manager-backend-8xr9.onrender.com/api
